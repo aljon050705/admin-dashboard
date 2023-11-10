@@ -3,13 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="layout">
         <div class="sidebar">
-            Sidebar
+            <div class="sidebar-logo">
+                <img src="svg/view-dashboard.svg" class="pfp clickable">
+                <p>Dashboard</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/home-outline.svg" class="icon-nav clickable">
+                <p>Home</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/account-outline.svg" class="icon-nav clickable">
+                <p>Profile</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/message-reply-text-outline.svg" class="icon-nav clickable">
+                <p>Messages</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/history.svg" class="icon-nav clickable">
+                <p>History</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/briefcase-outline.svg" class="icon-nav clickable">
+                <p>Tasks</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/account-group-outline.svg" class="icon-nav clickable">
+                <p>Communities</p>
+            </div>
+
+
+
+            <div class="sidebar-nav settings">
+                <input type="image" src="svg/cog-outline.svg" class="icon-nav clickable">
+                <p>Settings</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/face-agent.svg" class="icon-nav clickable">
+                <p>Support</p>
+            </div>
+            <div class="sidebar-nav">
+                <input type="image" src="svg/shield-account-outline.svg" class="icon-nav clickable">
+                <p>Privacy</p>
+            </div>
         </div>
         <div class="header">
             <div class="header-searchbar">
@@ -35,10 +77,8 @@
             </div>
         </div>
         <div class="main-content">
-            
-            
             <div class="left-content">
-                <p>Your Projects</p>
+                <h2>Your Projects</h2>
                 <div class="content-cardbox">
                     <h1>Super Cool Project</h1>
                     <p>What a cool project. Lorem Ipsum Doteiotetioerioerieo.</p>
@@ -92,18 +132,61 @@
                 </div>
             </div>
             <div class="right-content">
-                <p>Announcements</p>
+                <h2>Announcements</h2>
                 <div class="right-cardbox">
-                    Hello
+                    <div class="announcement">
+                        <div>
+                            <h3>Subscription Fee</h3>
+                            <p>We are now charging $1000 per hour of use</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Site Maintenance</h3>
+                            <p>Site will undergo maintenance for 1 year</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h3>Updated Privacy Policy</h3>
+                            <p>The policy is now private and thus we will not share it</p>
+                        </div>
+                    </div>
                 </div>
-                <p>Trending</p>
+                <h2>Trending</h2>
                 <div class="right-cardbox">
-                    
+                    <div class="trending">
+                        <div>
+                            <img src="svg/account-circle.svg" class="icon-medium clickable">
+                            <div class="trending-flex">
+                                <h4>@Demo User</h4>
+                                <p>Loves demoing</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="svg/account-circle.svg" class="icon-medium clickable">
+                            <div class="trending-flex">
+                                <h4>@Demo User</h4>
+                                <p>Loves demoing</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="svg/account-circle.svg" class="icon-medium clickable">
+                            <div class="trending-flex">
+                                <h4>@Demo User</h4>
+                                <p>Hates demoing</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="svg/account-circle.svg" class="icon-medium clickable">
+                            <div class="trending-flex">
+                                <h4>@Demo User</h4>
+                                <p>Hates demoing</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <p>Hello</p>
     <script src="script.js"></script>
 </body>
 </html>
